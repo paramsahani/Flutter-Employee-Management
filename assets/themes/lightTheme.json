@@ -1,0 +1,232 @@
+{
+  "radius": {
+    "none": "0",
+    "xs": "2",
+    "sm": "4",
+    "md": "6",
+    "lg": "8",
+    "xl": "16",
+    "full": "9999"
+  },
+  "table": {
+    "stroke": {
+      "header": "1",
+      "row": "0.5",
+      "grid": "0.5"
+    },
+    "header": {
+      "background": "Color(0xFFDDDDDD)",
+      "content": "Color(0xFF1A1A18)",
+      "stroke": "Color(0xFFC4C4C4)"
+    },
+    "row": {
+      "background": {
+        "default": "Color(0xFFFFFFFF)",
+        "hover": "Color(0xFFF0F0F0)",
+        "selected": "Color(0xFFE6F7FF)",
+        "pressed": "Color(0xFFDDDDDD)"
+      },
+      "content": "Color(0xFF1A1A18)",
+      "stroke": "Color(0xFFCCCCCC)"
+    },
+    "actionButton": {
+      "background": {
+        "default": "Color(0xFFE0F5FF)",
+        "hover": "Color(0xFFD4F0FF)",
+        "pressed": "Color(0xFF80D4F7)",
+        "selected": "Color(0xFFE0F5FF)"
+      },
+      "border": {
+        "default": "Color(0x00000000)",
+        "selected": "Color(0xFF0095DB)"
+      },
+      "icon": {
+        "default": "Color(0xFF0095DB)",
+        "hover": "Color(0xFF0085C5)",
+        "pressed": "Color(0xFF0075AF)",
+        "selected": "Color(0xFF0095DB)"
+      }
+    }
+  },
+  "tab": {
+    "stroke": {
+      "divider": "1",
+      "active": "2"
+    },
+    "tabcolor": "Color(0xFF1A1A18)"
+  },
+  "calendar": {
+    "background": "Color(0xFFFFFFFF)",
+    "cell": {
+      "background": {
+        "default": "Color(0x00000000)",
+        "hover": "Color(0xFFE6F7FF)",
+        "pressed": "Color(0xFFE0F5FF)",
+        "selected": "Color(0xFF0095DB)"
+      },
+      "content": {
+        "default": "Color(0xFF666666)",
+        "disabled": "Color(0xFFD4D1D1)",
+        "selected": "Color(0xFFFFFFFF)"
+      },
+      "border": {
+        "today": "Color(0xFF0095DB)"
+      }
+    }
+  },
+  "dialog": {
+    "overlay": "Color(0xB31A1A18)",
+    "background": "Color(0xFFFFFFFF)"
+  },
+  "form": {
+    "input": {
+      "stroke": "1",
+      "background": "Color(0xFFFFFFFF)",
+      "border": {
+        "default": "Color(0xFFC4C4C4)",
+        "hover": "Color(0xFFAAACAD)",
+        "focused": "Color(0xFF0095DB)",
+        "pressed": "Color(0xFF0095DB)",
+        "disabled": "Color(0xFFDDDDDD)",
+        "readonly": "Color(0xFFCCCCCC)",
+        "error": "Color(0xFFDC3545)"
+      },
+      "content": {
+        "default": "Color(0xFF666666)",
+        "placeholder": "Color(0xFFAAACAD)",
+        "disabled": "Color(0xFFCCCCCC)",
+        "readonly": "Color(0xFF666666)"
+      },
+      "helper": {
+        "default": "Color(0xFFAAACAD)",
+        "error": "Color(0xFFDC3545)"
+      }
+    },
+    "label": {
+      "default": "Color(0xFF1A1A18)",
+      "required": "Color(0xFFDC3545)",
+      "disabled": "Color(0xFFAAACAD)"
+    }
+  },
+  "divider": {
+    "stroke": "1",
+    "color": "Color(0x1A1A1A18)"
+  },
+  "border": {
+    "radius": {
+      "none": "0",
+      "xs": "2",
+      "sm": "4",
+      "md": "6",
+      "lg": "8",
+      "xl": "16",
+      "full": "9999"
+    }
+  },
+  "dropdown": {
+    "background": {
+      "default": "Color(0xFFFFFFFF)",
+      "hover": "Color(0xFFF0F0F0)",
+      "pressed": "Color(0xFFDDDDDD)",
+      "selected": "Color(0xFFE6F7FF)"
+    },
+    "content": {
+      "default": "Color(0xFF666666)",
+      "hover": "Color(0xFF1A1A18)",
+      "pressed": "Color(0xFFDDDDDD)",
+      "selected": "Color(0xFFE6F7FF)",
+      "disabled": "Color(0xFF848486)"
+    }
+  },
+  "text": {
+    "primary": "Color(0xFF1A1A18)",
+    "secondary": "Color(0xFF666666)"
+  },
+  "layout": {
+    "surface": {
+      "background": "Color(0xFFFFFFFF)"
+    },
+    "background": "Color(0xFFF8F8F8)"
+  },
+  "toast": {
+    "success": {
+      "background": "Color(0xFFEFFFF0)",
+      "border": "Color(0xFF4CAF50)",
+      "content": "Color(0xFF4CAF50)"
+    },
+    "error": {
+      "background": "Color(0xFFFFEEF0)",
+      "content": "Color(0xFFDC3545)",
+      "border": "Color(0xFFDC3545)"
+    },
+    "warning": {
+      "background": "Color(0xFFFFFAEE)",
+      "border": "Color(0xFFFFC107)",
+      "content": "Color(0xFFFFC107)"
+    },
+    "info": {
+      "background": "Color(0xFFE6F7FF)",
+      "border": "Color(0xFF0095DB)",
+      "content": "Color(0xFF0095DB)"
+    }
+  },
+  "background": {
+    "primaryblue": "Color(0xFF0095DB)"
+  },
+  "button": {
+    "stroke": {
+      "secondary": "1"
+    },
+    "primary": {
+      "background": {
+        "default": "Color(0xFF0095DB)",
+        "hover": "Color(0xFF0085C5)",
+        "pressed": "Color(0xFF0075AF)",
+        "disabled": "Color(0xFFCCCCCC)"
+      },
+      "content": {
+        "default": "Color(0xFFFFFFFF)",
+        "disabled": "Color(0xFF848486)"
+      }
+    },
+    "secondary": {
+      "background": "Color(0x00000000)",
+      "border": {
+        "default": "Color(0xFF0095DB)",
+        "hover": "Color(0xFF0085C5)",
+        "pressed": "Color(0xFF0075AF)",
+        "disabled": "Color(0xFFC4C4C4)"
+      },
+      "content": {
+        "default": "Color(0xFF0095DB)",
+        "hover": "Color(0xFF0085C5)"
+      },
+      "pressed": "Color(0xFF0075AF)",
+      "disabled": "Color(0xFF848486)"
+    },
+    "tertiary": {
+      "background": "Color(0x00000000)",
+      "content": {
+        "default": "Color(0xFF0095DB)",
+        "hover": "Color(0xFF0085C5)",
+        "pressed": "Color(0xFF0075AF)",
+        "disabled": "Color(0xFF848486)"
+      },
+      "underline": {
+        "default": "Color(0xFF0095DB)",
+        "hover": "Color(0xFF0085C5)",
+        "pressed": "Color(0xFF0075AF)",
+        "disabled": "Color(0xFFAAACAD)"
+      }
+    }
+  },
+  "Skeleton": {
+    "baseColor": "Color(0xFFE0E0E0)",
+    "highlightColor": "Color(0xFFF5F5F5)"    
+  },
+  "CancelCrossIcon":{
+    "default":"Color(0xFFDC3545)",
+    "disabled":"Color(0xFFF4C0C5)"
+
+  }
+}
